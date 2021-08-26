@@ -11,6 +11,7 @@ public class MenuController : MonoBehaviour
     private void Awake()
     {
         speedSlider.value = PlayerPrefs.GetFloat("Speed");
+        Time.timeScale = 1;
     }
     private void Start()
     {

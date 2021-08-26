@@ -7,7 +7,7 @@ public class SnakeController : MonoBehaviour
 
     private List<GameObject> segments = new List<GameObject>();
     [SerializeField] private GameObject segment;
-    private Vector2 direction = Vector2.down;
+    private Vector2 direction = Vector2.left;
     [SerializeField] private float timeBeforeMovement;
     private float _timeBeforeMovement;
     [SerializeField] private int initialSize;
